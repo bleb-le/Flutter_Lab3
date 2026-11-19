@@ -1,17 +1,39 @@
-# first_flutter_app
+# Flutter_Lab3
 
-A new Flutter project.
+приложение на Flutter, созданное в рамках лабораторной работы №3!
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **Имя:** ВИКТОРИЯ
+- **Группа:** ИСП-241
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.47.9
+- **Dart:** 3.13.7
+- **Платформа:** Web (Chrome)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/step9_belyaeva.png)
+
+## Запуск
+
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://github.com/bleb-le/Flutter_Lab3
+   ```
+2. Перейти в папку проекта:
+   ```bash
+   cd first_flutter_app
+   ```
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+- изучили структуру Flutter-проекта
+- освоили запуск проекта в браузере Chrome, поняли разницу между **Hot Reload** (мгновенное обновление UI с сохранением состояния) и **Hot Restart** (полный перезапуск)!!
+- разобрались с концепцией дерева виджетов и построили базовый каркас приложения с нуля!!
+- научились оформлять фон экрана с помощью `Container`, `BoxDecoration` и `LinearGradient`, а также стилизовать текст через `TextStyle`!
