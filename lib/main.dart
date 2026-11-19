@@ -2,47 +2,10 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: (Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Color.fromARGB(
-                  255,
-                  219,
-                  147,
-                  198,
-                ),
-                Color.fromARGB(
-                  255,
-                  187,
-                  126,
-                  216,
-                ),
-                Color.fromARGB(
-                  255,
-                  141,
-                  193,
-                  218,
-                ),
-              ],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
-          child: Center(
-            child: Text(
-              "Hello world!!!",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 44,
-              ),
-            ),
-          ),
-        ),
-      )),
+    const MaterialApp(
+      home: Text(
+        'Привет!!! Меня зовут ВИКА! \nЯ студентка группы ИСП-241.',
+      ),
     ),
   );
 }
