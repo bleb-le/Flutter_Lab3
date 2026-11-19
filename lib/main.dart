@@ -28,6 +28,8 @@ void main() {
                   218,
                 ),
               ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
